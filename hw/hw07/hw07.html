@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hw07</title>
+    <style>
+        header{
+            width: 100%;
+            height: 80px;
+            margin: 2px;
+            background-color: #009223;
+            top: 0;
+            left: 0;
+        } 
+        .wrapper{width: 1170px; margin: 0 auto;}
+        .wrapper img{float: left;}
+        #top_menu {
+            list-style-type: none;
+           float: right;
+           top: 0;
+        }
+        #top_menu a{
+            text-decoration: none;
+            color: black;
+        }
+        #top_menu li{
+            float: left;
+            color: black;
+
+        }
+        .menu{
+            float:right;
+            list-style-type: none;
+            }
+        .menu li{
+            float: left;
+        }
+        .menu a{
+            line-height: 75px;
+            padding: 0 15px;
+            display: block;
+            color: white;
+            text-decoration: none;
+            font-family: "맑은고딕"
+        }
+        .main{
+            float:left;
+            width: auto;
+            height: auto;
+            margin: 20px;
+        }
+        .main2{
+            float: right;
+        }
+        #how{
+            border: 5px solid rgb(255, 232, 25);
+            background-color: rgb(255, 232, 25);
+            width: 300px;
+            height: 135px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <img src="./img/logo.PNG" alt="서브웨이" width="150" height="80">
+            <ul id="top_menu">
+                <li><a href="./login.html">login</a>  |  </li>
+                <li>  회원가입</li>
+            </ul>
+            <nav>
+                <ul class="menu">
+                    <li><a href="./intro.html"><b>서브웨이 소개</b></a></li>
+                    <li><a href="./menu.html"><b>메뉴 소개</b></a></li>
+                    <li><a href="https://map.naver.com/v5/entry/place/38509938?c=14132069.4991311,4515324.4033673,15,0,0,0,dh"><b>방문 안내</b></a></li>
+                    <li><a href="./customercenter.html"><b>고객센터</b></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <article>
+            <div class="main">
+                <img src="./img/subway_main.jpg" alt="">
+            </div>
+        </article>
+        <article>
+            <div class="main2">
+                <h2>신선하다! 맛있다!</h2>
+                <h4>주문 방법</h4>
+                <ol id="how">
+                    <li>메뉴를 정한다.</li>
+                    <li>빵을 고른다.</li>
+                    <li>치즈를 고른다.</li>
+                    <li>야채를 고른다.</li>
+                    <li>소스를 고른다.</li>
+                    <li>세트 여부를 결정 후 결제한다.</li>
+                </ol>
+            </div>
+        </article>
+    </section>
+</body>
+</html>
